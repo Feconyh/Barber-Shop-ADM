@@ -1,7 +1,0 @@
-{
-  "name": "barbearia",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
