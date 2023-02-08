@@ -44,6 +44,10 @@ const routes: Routes = [
     path: 'tela-agenda',
     loadChildren: () => import('./agenda/tela-agenda/tela-agenda.module').then( m => m.TelaAgendaPageModule)
   },
+  {
+    path: 'concluido',
+    loadChildren: () => import('./concluido/concluido.module').then( m => m.ConcluidoPageModule)
+  },
   // {
   //   path: 'servicos',
   //   loadChildren: () => import('./servicos/servicos/servicos.module').then( m => m.ServicosPageModule)
