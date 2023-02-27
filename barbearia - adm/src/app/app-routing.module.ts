@@ -48,6 +48,14 @@ const routes: Routes = [
     path: 'concluido',
     loadChildren: () => import('./concluido/concluido.module').then( m => m.ConcluidoPageModule)
   },
+  {
+    path: 'contato',
+    loadChildren: () => import('./contato/contato.module').then( m => m.ContatoPageModule)
+  },
+  {
+    path: 'redes-sociais',
+    loadChildren: () => import('./redes-sociais/redes-sociais.module').then( m => m.RedesSociaisPageModule)
+  },
   // {
   //   path: 'servicos',
   //   loadChildren: () => import('./servicos/servicos/servicos.module').then( m => m.ServicosPageModule)
